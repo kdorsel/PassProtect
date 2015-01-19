@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22144CA5137C2A8200DA7F33 /* passwordClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22144CA4137C2A8200DA7F33 /* passwordClass.m */; };
+		226F867C13460AE4004021C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226F867B13460AE4004021C9 /* Cocoa.framework */; };
+		226F868613460AE4004021C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226F868413460AE4004021C9 /* InfoPlist.strings */; };
+		226F868913460AE4004021C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F868813460AE4004021C9 /* main.m */; };
+		226F868C13460AE4004021C9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 226F868A13460AE4004021C9 /* Credits.rtf */; };
+		226F868F13460AE4004021C9 /* PassProtectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 226F868E13460AE4004021C9 /* PassProtectAppDelegate.m */; };
+		226F869213460AE4004021C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 226F869013460AE4004021C9 /* MainMenu.xib */; };
+		2291C1BB1369F7CC00B4DD8E /* passwordWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2291C1BA1369F7CC00B4DD8E /* passwordWindow.xib */; };
+		22F83FE013FB244F00F29EA5 /* preferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F83FDF13FB244F00F29EA5 /* preferenceWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22144CA3137C2A8200DA7F33 /* passwordClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passwordClass.h; sourceTree = "<group>"; };
+		22144CA4137C2A8200DA7F33 /* passwordClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passwordClass.m; sourceTree = "<group>"; };
+		226F867713460AE4004021C9 /* PassProtect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassProtect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226F867B13460AE4004021C9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		226F867E13460AE4004021C9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		226F867F13460AE4004021C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		226F868013460AE4004021C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		226F868313460AE4004021C9 /* PassProtect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassProtect-Info.plist"; sourceTree = "<group>"; };
+		226F868513460AE4004021C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		226F868713460AE4004021C9 /* PassProtect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassProtect-Prefix.pch"; sourceTree = "<group>"; };
+		226F868813460AE4004021C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		226F868B13460AE4004021C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		226F868D13460AE4004021C9 /* PassProtectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassProtectAppDelegate.h; sourceTree = "<group>"; };
+		226F868E13460AE4004021C9 /* PassProtectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassProtectAppDelegate.m; sourceTree = "<group>"; };
+		226F869113460AE4004021C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2291C1BA1369F7CC00B4DD8E /* passwordWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = passwordWindow.xib; path = PassProtect.xcodeproj/passwordWindow.xib; sourceTree = SOURCE_ROOT; };
+		22F83FDF13FB244F00F29EA5 /* preferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = preferenceWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226F867413460AE4004021C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F867C13460AE4004021C9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226F866C13460AE4004021C9 = {
+			isa = PBXGroup;
+			children = (
+				226F868113460AE4004021C9 /* PassProtect */,
+				226F867A13460AE4004021C9 /* Frameworks */,
+				226F867813460AE4004021C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226F867813460AE4004021C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226F867713460AE4004021C9 /* PassProtect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226F867A13460AE4004021C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226F867B13460AE4004021C9 /* Cocoa.framework */,
+				226F867D13460AE4004021C9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		226F867D13460AE4004021C9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226F867E13460AE4004021C9 /* AppKit.framework */,
+				226F867F13460AE4004021C9 /* CoreData.framework */,
+				226F868013460AE4004021C9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		226F868113460AE4004021C9 /* PassProtect */ = {
+			isa = PBXGroup;
+			children = (
+				226F868D13460AE4004021C9 /* PassProtectAppDelegate.h */,
+				226F868E13460AE4004021C9 /* PassProtectAppDelegate.m */,
+				22144CA3137C2A8200DA7F33 /* passwordClass.h */,
+				22144CA4137C2A8200DA7F33 /* passwordClass.m */,
+				226F869013460AE4004021C9 /* MainMenu.xib */,
+				22F83FDF13FB244F00F29EA5 /* preferenceWindow.xib */,
+				2291C1BA1369F7CC00B4DD8E /* passwordWindow.xib */,
+				226F868213460AE4004021C9 /* Supporting Files */,
+			);
+			path = PassProtect;
+			sourceTree = "<group>";
+		};
+		226F868213460AE4004021C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				226F868313460AE4004021C9 /* PassProtect-Info.plist */,
+				226F868413460AE4004021C9 /* InfoPlist.strings */,
+				226F868713460AE4004021C9 /* PassProtect-Prefix.pch */,
+				226F868813460AE4004021C9 /* main.m */,
+				226F868A13460AE4004021C9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226F867613460AE4004021C9 /* PassProtect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226F869513460AE4004021C9 /* Build configuration list for PBXNativeTarget "PassProtect" */;
+			buildPhases = (
+				226F867313460AE4004021C9 /* Sources */,
+				226F867413460AE4004021C9 /* Frameworks */,
+				226F867513460AE4004021C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassProtect;
+			productName = PassProtect;
+			productReference = 226F867713460AE4004021C9 /* PassProtect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226F866E13460AE4004021C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 226F867113460AE4004021C9 /* Build configuration list for PBXProject "PassProtect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 226F866C13460AE4004021C9;
+			productRefGroup = 226F867813460AE4004021C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226F867613460AE4004021C9 /* PassProtect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226F867513460AE4004021C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F868613460AE4004021C9 /* InfoPlist.strings in Resources */,
+				226F868C13460AE4004021C9 /* Credits.rtf in Resources */,
+				226F869213460AE4004021C9 /* MainMenu.xib in Resources */,
+				2291C1BB1369F7CC00B4DD8E /* passwordWindow.xib in Resources */,
+				22F83FE013FB244F00F29EA5 /* preferenceWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226F867313460AE4004021C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226F868913460AE4004021C9 /* main.m in Sources */,
+				226F868F13460AE4004021C9 /* PassProtectAppDelegate.m in Sources */,
+				22144CA5137C2A8200DA7F33 /* passwordClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		226F868413460AE4004021C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226F868513460AE4004021C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		226F868A13460AE4004021C9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226F868B13460AE4004021C9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		226F869013460AE4004021C9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226F869113460AE4004021C9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		226F869313460AE4004021C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		226F869413460AE4004021C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		226F869613460AE4004021C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassProtect/PassProtect-Prefix.pch";
+				INFOPLIST_FILE = "PassProtect/PassProtect-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		226F869713460AE4004021C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassProtect/PassProtect-Prefix.pch";
+				INFOPLIST_FILE = "PassProtect/PassProtect-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226F867113460AE4004021C9 /* Build configuration list for PBXProject "PassProtect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226F869313460AE4004021C9 /* Debug */,
+				226F869413460AE4004021C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226F869513460AE4004021C9 /* Build configuration list for PBXNativeTarget "PassProtect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226F869613460AE4004021C9 /* Debug */,
+				226F869713460AE4004021C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226F866E13460AE4004021C9 /* Project object */;
+}
